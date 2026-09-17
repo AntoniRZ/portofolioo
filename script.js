@@ -16,7 +16,7 @@
                 title: 'FYP Content: Rumah Murah Malang',
                 platform: 'Instagram',
                 views: '85K+',
-                date: 'Oktober 2024',
+                date: 'Oktober 2025',
                 thumb: 'https://fastly.picsum.photos/id/48/5000/3333.jpg?hmac=y3_1VDNbhii0vM_FN6wxMlvK27vFefflbUSH06z98so',
                 videoUrl: 'video Konten/eztate.id 1.mp4'
             },
@@ -55,7 +55,7 @@
                 title: 'Poster Ra Kartini',
                 platform: 'Instagram',
                 views: '5K Shares',
-                date: 'November 2024',
+                date: 'November 2025',
                 thumb: 'Poster/RA kartini.png'
             },
             {
@@ -73,7 +73,7 @@
                 title: 'FYP Content: Rumah Murah Malang',
                 platform: 'TikTok',
                 views: '5K Shares',
-                date: 'November 2024',
+                date: 'November 2025',
                 thumb: 'https://fastly.picsum.photos/id/8/5000/3333.jpg?hmac=OeG5ufhPYQBd6Rx1TAldAuF92lhCzAhKQKttGfawWuA',
                 videoUrl: 'video Konten/review.rumahmalang.mp4'
             }
@@ -109,7 +109,7 @@
 
         // TYPEWRITER EFFECT
         function initTypewriter() {
-            const words = ["Digital Marketing Specialist","Social Media Specialist"];
+            const words = ["Digital Marketing Specialist", "Content Creator", "Social Media Specialist"];
             let wordIndex = 0;
             let charIndex = 0;
             let isDeleting = false;
