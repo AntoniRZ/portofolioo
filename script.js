@@ -109,7 +109,7 @@
 
         // TYPEWRITER EFFECT
         function initTypewriter() {
-            const words = ["Digital Marketing Specialist", "Content Creator", "Social Media Specialist"];
+            const words = ["Digital Marketing Specialist","Social Media Specialist"];
             let wordIndex = 0;
             let charIndex = 0;
             let isDeleting = false;
