@@ -54,7 +54,7 @@
                 type: 'photo',
                 title: 'Poster Ra Kartini',
                 platform: 'Instagram',
-                views: '5K Shares',
+                views: '100',
                 date: 'November 2025',
                 thumb: 'Poster/RA kartini.png'
             },
@@ -63,7 +63,7 @@
                 type: 'photo',
                 title: 'Poster Typography',
                 platform: 'Instagram',
-                views: '5K Shares',
+                views: '100',
                 date: 'February 2026',
                 thumb: 'Poster/waguri.png'
             },
