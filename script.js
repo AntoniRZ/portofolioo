@@ -35,7 +35,7 @@
                 title: 'Poster Hari Raya',
                 platform: 'Instagram',
                 views: '100',
-                date: 'Februari 2025',
+                date: 'Februari 2026',
                 thumb: 'Poster/eid%20fitr.png',
                 
             },
