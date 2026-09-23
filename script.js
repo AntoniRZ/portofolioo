@@ -7,7 +7,7 @@
                 platform: 'TikTok',
                 views: '219K+',
                 date: 'Desember 2025',
-                thumb: 'https://fastly.picsum.photos/id/9/5000/3269.jpg?hmac=cZKbaLeduq7rNB8X-bigYO8bvPIWtT-mh8GRXtU3vPc',
+                thumb: 'thumbnail/propertyimage1.jpeg',
                 videoUrl: 'Video%20Konten/eztate.id%202.mp4'
             },
             {
@@ -17,7 +17,7 @@
                 platform: 'Instagram',
                 views: '85K+',
                 date: 'Oktober 2025',
-                thumb: 'https://fastly.picsum.photos/id/48/5000/3333.jpg?hmac=y3_1VDNbhii0vM_FN6wxMlvK27vFefflbUSH06z98so',
+                thumb: 'thumbnail/propertyimage2.jpeg',
                 videoUrl: 'Video%20Konten/eztate.id%201.mp4'
             },
             {
@@ -46,7 +46,7 @@
                 platform: 'TikTok',
                 views: '45K+',
                 date: 'Desember 2025',
-                thumb: 'https://fastly.picsum.photos/id/60/1920/1200.jpg?hmac=fAMNjl4E_sG_WNUjdU39Kald5QAHQMh-_-TsIbbeDNI',
+                thumb: 'thumbnail/propertyimage3.jpeg',
                 videoUrl: 'Video%20Konten/review.rumahmalang%201.mp4'
             },
             {
@@ -74,7 +74,7 @@
                 platform: 'TikTok',
                 views: '5K Shares',
                 date: 'November 2025',
-                thumb: 'https://fastly.picsum.photos/id/8/5000/3333.jpg?hmac=OeG5ufhPYQBd6Rx1TAldAuF92lhCzAhKQKttGfawWuA',
+                thumb: 'thumbnail/propertyimage4.jpg',
                 videoUrl: 'Video%20Konten/review.rumahmalang.mp4'
             }
         ];
