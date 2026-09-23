@@ -8,7 +8,7 @@
                 views: '219K+',
                 date: 'Desember 2025',
                 thumb: 'https://fastly.picsum.photos/id/9/5000/3269.jpg?hmac=cZKbaLeduq7rNB8X-bigYO8bvPIWtT-mh8GRXtU3vPc',
-                videoUrl: 'video Konten/eztate.id 2.mp4'
+                videoUrl: 'Video%20Konten/eztate.id%202.mp4'
             },
             {
                 id: 2,
@@ -18,7 +18,7 @@
                 views: '85K+',
                 date: 'Oktober 2025',
                 thumb: 'https://fastly.picsum.photos/id/48/5000/3333.jpg?hmac=y3_1VDNbhii0vM_FN6wxMlvK27vFefflbUSH06z98so',
-                videoUrl: 'video Konten/eztate.id 1.mp4'
+                videoUrl: 'Video%20Konten/eztate.id%201.mp4'
             },
             {
                 id: 3,
@@ -27,7 +27,7 @@
                 platform: 'Instagram',
                 views: '12K Likes',
                 date: 'Maret 2026',
-                thumb: 'Poster/Jumat agung.png'
+                thumb: 'Poster/Jumat%20agung.png'
             },
             {
                 id: 4,
@@ -36,7 +36,7 @@
                 platform: 'Instagram',
                 views: '100',
                 date: 'Februari 2025',
-                thumb: 'Poster/eid fitr.png',
+                thumb: 'Poster/eid%20fitr.png',
                 
             },
             {
@@ -47,7 +47,7 @@
                 views: '45K+',
                 date: 'Desember 2025',
                 thumb: 'https://fastly.picsum.photos/id/60/1920/1200.jpg?hmac=fAMNjl4E_sG_WNUjdU39Kald5QAHQMh-_-TsIbbeDNI',
-                videoUrl: 'video Konten/review.rumahmalang 1.mp4'
+                videoUrl: 'Video%20Konten/review.rumahmalang%201.mp4'
             },
             {
                 id: 6,
@@ -56,7 +56,7 @@
                 platform: 'Instagram',
                 views: '100',
                 date: 'November 2025',
-                thumb: 'Poster/RA kartini.png'
+                thumb: 'Poster/RA%20Kartini.png'
             },
             {
                 id: 7,
@@ -75,7 +75,7 @@
                 views: '5K Shares',
                 date: 'November 2025',
                 thumb: 'https://fastly.picsum.photos/id/8/5000/3333.jpg?hmac=OeG5ufhPYQBd6Rx1TAldAuF92lhCzAhKQKttGfawWuA',
-                videoUrl: 'video Konten/review.rumahmalang.mp4'
+                videoUrl: 'Video%20Konten/review.rumahmalang.mp4'
             }
         ];
 

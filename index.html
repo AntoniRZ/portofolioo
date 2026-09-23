@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antoni Roozaq Pratomo | Digital Marketing Specialist</title>
+    <meta name="description" content="Portfolio Digital Marketing Specialist — Social Media Specialist, Content-Led, Result-Oriented. Berpengalaman di industri properti dengan 400K+ organic views.">
+    
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- SVG Noise Filter -->
+    <svg class="noise-overlay" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <filter id="noiseFilter">
+            <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+        </filter>
+        <rect width="100%" height="100%" filter="url(#noiseFilter)"/>
+    </svg>
+
+    <div class="cursor-follower" id="cursor"></div>
+
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="nav-logo">
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 28L20 12L28 28" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 22H24" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M20 4C11.1634 4 4 11.1634 4 20C4 28.8366 11.1634 36 20 36C28.8366 36 36 28.8366 36 20C36 11.1634 28.8366 4 20 4Z" stroke="var(--border)" stroke-width="1"/>
+                </svg>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <i data-lucide="moon" id="theme-icon"></i>
+                </button>
+                <a href="#contact" class="btn btn-ghost" style="display: none; @media (min-width: 768px) { display: flex; }">Hire Me</a>
+                <button class="mobile-toggle" id="mobile-toggle">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <button class="mobile-close" id="mobile-close">
+            <i data-lucide="x"></i>
+        </button>
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#experience" class="mobile-link">Experience</a>
+        <a href="#work" class="mobile-link">Work</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content reveal">
+                        <span class="hero-pretitle">Hello, I'm</span>
+                        <h1 class="hero-title">Antoni Roozaq Pratomo</h1>
+                        <div class="hero-typewriter" id="typewriter"></div>
+                        <p class="hero-desc">
+                            Digital Marketing Specialist dengan pengalaman 1 tahun di industri properti. 
+                            Menghasilkan 400K+ organic views dan berkontribusi pada penjualan 2 unit properti.
+                        </p>
+                        <div class="hero-btns">
+                            <a href="#work" class="btn btn-primary">View My Work</a>
+                            <a href="CV/Antoni%20Roozaq%20Pratomo%20CV.pdf" class="btn btn-primary">Download CV</a>
+                        </div>
+                    </div>
+                    <div class="hero-visual reveal stagger-1">
+                        <div class="hero-bg-line"></div>
+                        <div class="hero-image-wrapper">
+                            <img src="Fotoku/pandawa%20beach.jpg" alt="Antoni Roozaq Pratomo" class="image" width="480" height="600">
+                        </div>
+                        <div class="hero-badge badge-location">
+                            <i data-lucide="map-pin" size="14"></i>
+                            Malang, ID
+                        </div>
+                        <div class="hero-badge badge-status">
+                            <div class="pulse-dot"></div>
+                            Available for Work
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="reveal">
+                        <div class="section-header">
+                            <h2 class="section-title">About Me</h2>
+                        </div>
+                        <p class="about-text">
+                            Saya adalah seorang Digital Marketing Specialist yang berfokus pada strategi berbasis data dan pembuatan konten yang berdampak. Dengan pengalaman intensif di industri properti, saya menggabungkan kreativitas visual dengan analisis performa untuk mencapai target bisnis yang nyata.
+                        </p>
+                        <div class="skills-wrapper">
+                            <div class="skills-track">
+                                <span class="skill-chip">TikTok</span>
+                                <span class="skill-chip">Instagram</span>
+                                <span class="skill-chip">YouTube</span>
+                                <span class="skill-chip">Microsoft Excel</span>
+                                <span class="skill-chip">Affinity</span>
+                                <span class="skill-chip">Content Plan</span>
+                                <span class="skill-chip">Content Creation</span>
+                                <span class="skill-chip">SEO</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats-grid reveal stagger-1">
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="10">0</span>
+                            <span class="stat-label">Konten FYP</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="400">0</span>
+                            <span class="stat-label">Total View (K+)</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">MoU Secured</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="85">0</span>
+                            <span class="stat-label">Response Rate (%)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="bg-surface">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Work Experience</h2>
+                </div>
+                <div class="experience-timeline">
+                    <!-- Entry 1 -->
+                    <div class="exp-item reveal">
+                        <div class="exp-dot"></div>
+                        <div class="exp-header" onclick="toggleExp(this)">
+                            <h3 class="exp-company">Sentral Fintek Indonesia</h3>
+                            <div class="exp-meta">
+                                <span>Digital Marketing Intern (Full-time Contract)</span>
+                                <span>•</span>
+                                <span>Nov 2025 – May 2026</span>
+                                <span>•</span>
+                                <span>Malang, Jawa Timur</span>
+                            </div>
+                        </div>
+                        <div class="exp-content">
+                            <ul class="exp-list">
+                                <li>Berkontribusi pada penjualan 2 unit properti via lead generation organik.</li>
+                                <li>Mengamankan 3 MoU dengan developer, membuka potensi 8+ listing baru.</li>
+                                <li>Meningkatkan engagement rate dari 0.8% ke 2.7%.</li>
+                                <li>Menghasilkan 10+ konten FYP dengan 400K+ total views.</li>
+                                <li>Mengelola 5 akun media sosial, response rate 85% dalam 24 jam.</li>
+                            </ul>
+                            <div class="exp-tags">
+                                <span class="tag">#Property</span>
+                                <span class="tag">#SocialMedia</span>
+                                <span class="tag">#DataDriven</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Entry 2 -->
+                    <div class="exp-item reveal">
+                        <div class="exp-dot"></div>
+                        <div class="exp-header" onclick="toggleExp(this)">
+                            <h3 class="exp-company">Nilaya Resort & Residences </h3>
+                            <div class="exp-meta">
+                                <span>Digital Marketing Intern (Full-time Contract)</span>
+                                <span>•</span>
+                                <span>Sep 2024 – Feb 2025</span>
+                                <span>•</span>
+                                <span>Kota Batu, Jawa Timur</span>
+                            </div>
+                        </div>
+                        <div class="exp-content">
+                            <ul class="exp-list">
+                                <li>Meningkatkan engagement rate dari 0.8% ke 2.4%.</li>
+                                <li>Menambah 500 organic followers dalam 6 bulan tanpa budget iklan.</li>
+                                <li>Mengembangkan dashboard report sales interaktif dengan Microsoft Excel.</li>
+                            </ul>
+                            <div class="exp-tags">
+                                <span class="tag">#Property</span>
+                                <span class="tag">#DataVisualization</span>
+                                <span class="tag">#Excel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION & CERTIFICATIONS -->
+        <section id="education">
+            <div class="container">
+                <div class="edu-grid">
+                    <div class="reveal">
+                        <h2 class="section-title" style="font-size: 48px; margin-bottom: var(--space-8);">Education</h2>
+                        <div class="edu-card">
+                            <h3 class="edu-uni">Ma Chung University</h3>
+                            <div class="edu-meta">
+                                <span>S1 — GPA 3.43/4.00</span><br>
+                                <span>Agustus 2019 – Agustus 2025</span>
+                            </div>
+                            <p class="edu-thesis">
+                                "Rancang Bangun Sistem Pembelian dan Sewa Properti pada Nilaya Resort & Residences menggunakan Framework Laravel"
+                            </p>
+                        </div>
+                    </div>
+                    <div class="reveal stagger-1">
+                        <h2 class="section-title" style="font-size: 48px; margin-bottom: var(--space-8);">Certifications</h2>
+                        <div class="certs-list">
+                            <span class="cert-badge">Adobe UI/UX Design</span>
+                            <span class="cert-badge">Adobe Photoshop CC</span>
+                            <span class="cert-badge">BNSP Digital Marketing 2025</span>
+                            <span class="cert-badge">HSK 2 (Mandarin)</span>
+                            <span class="cert-badge">TOEIC (English)</span>
+                            <span class="cert-badge">Social Media Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK / PORTFOLIO SECTION -->
+        <section id="work" class="bg-surface">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Selected Work</h2>
+                </div>
+
+                <div class="work-filters reveal">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="video">Video</button>
+                    <button class="filter-btn" data-filter="photo">Photo</button>
+                    
+                </div>
+
+                <div class="work-grid" id="portfolio-grid">
+                    <!-- Cards will be injected by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <div class="container">
+                <div class="reveal" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    <h2 class="contact-info-title">Let's Work Together</h2>
+                    <p class="text-muted" style="margin-bottom: var(--space-12); font-size: 18px;">Punya proyek menarik? Hubungi saya melalui salah satu platform di bawah ini.</p>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-6); text-align: left;">
+                        <a href="https://www.instagram.com/antonirzz?igsh=MWtvZThubG9xMjNodg==" target="_blank" rel="noopener noreferrer" class="contact-item" style="background:  var(--surface); padding: var(--space-6); border-radius: var(--radius-lg); border: 1px solid var(--border); transition: var(--transition);">
+                            <div class="contact-icon"> 
+                                <img src="icon/instagram-svgrepo-com.svg" alt="instagram">
+                            </div>
+                            <div>
+                                <span class="modal-meta-label">Instagram</span>
+                                <span class="modal-meta-value">AntoniRZ</span>
+                            </div>
+                        </a>
+                        
+                        <a href="https://tiktok.com/@altongaud" target="_blank" rel="noopener noreferrer" class="contact-item" style="background: var(--surface); padding: var(--space-6); border-radius: var(--radius-lg); border: 1px solid var(--border); transition: var(--transition);">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-music">
+                                    <path d="M9 18V5l12-2v13"></path>
+                                    <circle cx="6" cy="18" r="3"></circle>
+                                    <circle cx="18" cy="16" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <span class="modal-meta-label">TikTok</span>
+                                <span class="modal-meta-value">altongaud</span>
+                            </div>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/antoni-roozaq" target="_blank" rel="noopener noreferrer" class="contact-item" style="background: var(--surface); padding: var(--space-6); border-radius: var(--radius-lg); border: 1px solid var(--border); transition: var(--transition);">
+                            <div class="contact-icon">
+                              <img src="icon/linkedin-svgrepo-com.svg" alt="linkedin" width="24" height="24">
+                                </div>
+                            <div>
+                                <span class="modal-meta-label">LinkedIn</span>
+                                <span class="modal-meta-value">Antoni Roozaq</span>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/AntoniRZ" target="_blank" rel="noopener noreferrer" class="contact-item" style="background: var(--surface); padding: var(--space-6); border-radius: var(--radius-lg); border: 1px solid var(--border); transition: var(--transition);">
+                            <div class="contact-icon">
+                              <img src="icon/github.svg" alt="github" width="24" height="24">
+                                </div>
+                            <div>
+                                <span class="modal-meta-label">GitHub</span>
+                                <span class="modal-meta-value">AntoniRZ</span>
+                            </div>
+                        </a>
+                        
+                        <a href="mailto:antonioni721@gmail.com" class="contact-item" style="background: var(--surface); padding: var(--space-6); border-radius: var(--radius-lg); border: 1px solid var(--border); transition: var(--transition); justify-content: center; text-align: center;">
+                            <div class="contact-icon"><i data-lucide="mail"></i></div>
+                            <div>
+                                <span class="modal-meta-label">Email</span>
+                                <span class="modal-meta-value">antonioni721@gmail.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p class="text-muted">© 2026 Antoni Roozaq Pratomo. Built with passion in Malang, ID.</p>
+                <div style="display: flex; gap: var(--space-6); align-items: center;">
+                    <a href="https://www.linkedin.com/in/antoni-roozaq" target="_blank" rel="noopener noreferrer" class="text-muted" style="font-size: 14px;">LinkedIn</a>
+                    <a href="#" class="text-muted" style="font-size: 14px;">GitHub</a>
+                    <a href="https://github.com/AntoniRZ" class="back-to-top" aria-label="Back to Top">
+                        <i data-lucide="arrow-up" size="18"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- LIGHTBOX MODAL -->
+    <div class="modal" id="lightbox">
+        <button class="modal-close" id="modal-close">
+            <i data-lucide="x"></i>
+        </button>
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="modal-media" id="modal-media">
+                    <!-- Media will be injected -->
+                </div>
+                <div class="modal-details">
+                    <div class="modal-counter" id="modal-counter">1 / 8</div>
+                    <h3 class="modal-title" id="modal-title">Project Title</h3>
+                    <div class="modal-meta-grid">
+                        <div>
+                            <span class="modal-meta-label">Platform</span>
+                            <span class="modal-meta-value" id="modal-platform">TikTok</span>
+                        </div>
+                        <div>
+                            <span class="modal-meta-label">Views / Data</span>
+                            <span class="modal-meta-value" id="modal-views">400K+</span>
+                        </div>
+                        <div>
+                            <span class="modal-meta-label">Tanggal</span>
+                            <span class="modal-meta-value" id="modal-date">Desember 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-nav">
+                <button class="modal-nav-btn" id="modal-prev"><i data-lucide="chevron-left"></i></button>
+                <button class="modal-nav-btn" id="modal-next"><i data-lucide="chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
