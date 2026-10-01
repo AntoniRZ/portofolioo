@@ -76,7 +76,18 @@
                 date: 'November 2025',
                 thumb: 'thumbnail/propertyimage4.jpg',
                 videoUrl: 'Video%20Konten/review.rumahmalang.mp4'
-            }
+            },
+            {
+                id: 9,
+                type: 'Project',
+                title: 'Project Name',
+                platform: 'Project Platform',
+                views: 'Project Views',
+                date: 'Project Date',
+                thumb: 'Project Thumbnail',
+                videoUrl: 'Project Video URL'
+            },
+
         ];
 
         // STATE MANAGEMENT
