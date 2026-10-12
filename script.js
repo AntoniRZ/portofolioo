@@ -72,7 +72,7 @@
                 type: 'video',
                 title: 'FYP Content: Rumah Murah Malang',
                 platform: 'TikTok',
-                views: '5K Shares',
+                views: '20K+',
                 date: 'November 2025',
                 thumb: 'thumbnail/propertyimage4.jpg',
                 videoUrl: 'Video%20Konten/review.rumahmalang.mp4'
@@ -80,12 +80,21 @@
             {
                 id: 9,
                 type: 'Project',
-                title: 'Project Name',
-                platform: 'Project Platform',
-                views: 'Project Views',
-                date: 'Project Date',
+                title: 'Report Daily Content Leads January 2026',
+                platform: 'Excell',
+                date: 'January 2026',
                 thumb: 'Project Thumbnail',
-                videoUrl: 'Project Video URL'
+                
+            },
+
+            {
+                id: 10,
+                type: 'Project',
+                title: 'Report Daily Content Leads February 2026',
+                platform: 'Excell',
+                date: 'February 2026',
+                thumb: 'Project Thumbnail',
+                
             },
 
         ];
