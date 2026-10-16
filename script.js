@@ -244,6 +244,7 @@
                         <div class="work-info">
                             <span class="work-type">${item.platform}</span>
                             <h3 class="work-title">${item.title}</h3>
+                            ${item.desc ? `<p class="work-desc">${item.desc}</p>` : ''}
                         </div>
                     </div>
                 `).join('');
