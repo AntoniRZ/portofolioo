@@ -244,7 +244,6 @@
                         <div class="work-info">
                             <span class="work-type">${item.platform}</span>
                             <h3 class="work-title">${item.title}</h3>
-                            ${item.desc ? `<p class="work-desc">${item.desc}</p>` : ''}
                         </div>
                     </div>
                 `).join('');
@@ -285,7 +284,8 @@
             modalPlatform.textContent = item.platform;
             modalViews.textContent = item.views;
             modalDate.textContent = item.date;
-            modalDesc.textContent = item.desc;
+            modalDesc.textContent = item.desc || '';
+            modalDesc.style.display = item.desc ? 'block' : 'none';
             modalCounter.textContent = `${currentModalIndex + 1} / ${filteredItems.length}`;
             lucide.createIcons();
         }
