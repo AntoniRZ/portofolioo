@@ -259,6 +259,8 @@
         const modalPlatform = document.getElementById('modal-platform');
         const modalViews = document.getElementById('modal-views');
         const modalDate = document.getElementById('modal-date');
+        const modalDesc = document.getElementById('modal-desc');
+
         const modalCounter = document.getElementById('modal-counter');
 
         function openLightbox(index) {
@@ -282,6 +284,7 @@
             modalPlatform.textContent = item.platform;
             modalViews.textContent = item.views;
             modalDate.textContent = item.date;
+            modalDesc.textContent = item.desc;
             modalCounter.textContent = `${currentModalIndex + 1} / ${filteredItems.length}`;
             lucide.createIcons();
         }
