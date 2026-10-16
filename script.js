@@ -83,7 +83,7 @@
                 title: 'Report Daily Content Leads January 2026',
                 platform: 'Excell',
                 date: 'January 2026',
-                thumb: 'Poster/daily january.png',
+                thumb: 'Poster/daily january.jpg',
                 
             },
 
@@ -93,7 +93,7 @@
                 title: 'Report Daily Content Leads February 2026',
                 platform: 'Excell',
                 date: 'February 2026',
-                thumb: 'Poster/daily february.png',
+                thumb: 'Poster/daily february.jpg',
                 
             },
 
