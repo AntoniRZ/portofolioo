@@ -84,6 +84,8 @@
                 platform: 'Excell',
                 date: 'January 2026',
                 thumb: 'Poster/daily januari.jpg',
+                desc: 'untuk mengetahui dalam 1 bulan Month to Day rata rata views Konten di bulan januari',
+                
                 
             },
 
@@ -94,6 +96,7 @@
                 platform: 'Excell',
                 date: 'February 2026',
                 thumb: 'Poster/daily februari.jpg',
+                desc: 'untuk mengetahui dalam 1 bulan Month to Day rata rata views Konten di bulan februari'
                 
             },
 
