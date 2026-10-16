@@ -201,7 +201,7 @@
                     obj.innerHTML = end + (obj.dataset.target.includes('+') ? '+' : (obj.parentElement.querySelector('.stat-label').textContent.includes('%') ? '%' : '+'));
                     // Fix formatting manually
                     if (obj.dataset.target == "10") obj.innerHTML = "10+";
-                    if (obj.dataset.target == "400") obj.innerHTML = "400K+";
+                    if (obj.dataset.target == "300") obj.innerHTML = "300K+";
                     if (obj.dataset.target == "3") obj.innerHTML = "3";
                     if (obj.dataset.target == "85") obj.innerHTML = "85%+";
                 }
