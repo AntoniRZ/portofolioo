@@ -282,6 +282,7 @@
             modalPlatform.textContent = item.platform;
             modalViews.textContent = item.views;
             modalDate.textContent = item.date;
+            modalDesc.textContent = item.desc;
             modalCounter.textContent = `${currentModalIndex + 1} / ${filteredItems.length}`;
             lucide.createIcons();
         }
